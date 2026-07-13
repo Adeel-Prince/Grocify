@@ -1,0 +1,71 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.env
+.env.production
+.env.development
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+example
+
+# generated native folders
+/ios
+/android
+
+.env.local
+# EAS Cloud Builds & Local Native Artifacts
+.eas/
+/ios
+/android
+.kotlin/
+*.orig.*
+# Database Migrations Cache (Optional: remove if you want migrations on GitHub)
+# .drizzle/
+
+# Development Tools & Compilers
+.metro-health-check*
+*.tsbuildinfo
+.sentry-maps/
+
+# Error Debug Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+logs/
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db
